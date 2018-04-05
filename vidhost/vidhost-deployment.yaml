@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: vidhost-189723 # !!!!!!! you have to manually enter this !!!!!!!
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: vidhost-189723 # !!!!!!! same here
+    spec:
+      containers:
+      - name: master
+        image: gcr.io/vidhost-189723/vidhost-frontend-deploy:v1  # !!!!!!! same
+        ports:
+          - containerPort: 8080

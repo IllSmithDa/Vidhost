@@ -1,0 +1,79 @@
+.HomePage__header {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.HomePage__header-title {
+    font-size: 15px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.HomePage__header-search {
+    padding: 10px;
+    margin: auto;
+}
+.HomePage_header-un {
+    padding-right: 10px;
+    font-size: 15px;
+    align-items: flex-end;
+}
+.HomePage-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.HomePage-login {
+    background-color: beige;
+    float: right;
+    padding: 10px;
+}
+.HomePage-Password{
+    float: right;
+}
+.HomePage__Login-Submit {
+    padding-top: 5px;
+}
+.HomePage__Login-SubButton {
+    width: 59%;
+    float: right;
+}
+.HomePage__Tabs {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-left: 15px;
+}
+/* flexbox only seems to work if the container and its children all have 
+   classes of some kind */
+.HomePage-key {
+    margin:15px;
+    width: 200px;
+}
+.HomePage-videoImage {
+    border:black solid 1px;
+    width: 200px; 
+    height: 150px;
+  }
+
+  .HomePage-videoName {
+    font-weight:bolder;
+  }
+  .HomePage-channelName {
+    font-size: 15px;
+  }
+  .HomePage-viewerCount {
+    font-size: 13px;
+  }
+  .HomePage-div{
+    flex-direction: row;
+  }
+  .HomePage-SearchBar{
+    width: 300px;
+  }
+  .SearchBar-field {
+    width: 400px;
+    height: 20px;
+  }     
